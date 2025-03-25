@@ -1,28 +1,24 @@
 EDA[ELECTRICAL DIGITAL AUTOMATION].
-===================================
-BASICS.
-+++++++
-CURRENT:-flow of electric charge./the direction of current in opposite direction to electrons.
+---------------------------------------
+Current: The flow of electric charge; the direction of current is opposite to the flow of electrons.
      |         current flow
      |-------->-----
         <-------    |           
      electrons flow |               
                      low voltage.
+Electric Field: A region around electric charges where forces act on other charges.
 
-Electric field:-
-----------------
-electric  filed is a region or a space surrounded by charges.
-Magnetic field:
---------------
-magnetic effect is caused by moving electric charges while an electric field is caused by stationary charges.
-Conductor:-
-----------
-balance the currect flow,A conductor is a material that readily allows electricity (and sometimes heat) to flow through it.
-Insulator:
-----------
-an insulator is a material that resists the flow of electricity (and heat). 
+Magnetic Field: A field created by moving electric charges, unlike an electric field created by stationary charges.
+
+Conductor vs. Insulator:
+
+Conductor: Materials (e.g., metals) that allow the flow of electricity and heat.
+
+Insulator: Materials (e.g., rubber, glass) that resist electricity and heat flow.
+
 DIGITAL ELECTRONICS:
 ====================
+Digital electronics processes signals that are represented as discrete values, typically 0 (low voltage) and 1 (high voltage).
 -->represents discrete values(0,1)
 0-----------no voltage(0v)
 1-----------full voltage(5v)
@@ -56,10 +52,8 @@ characterized by their semiconductor material structure:
     NPN:1[appiled],0[not applicable]
 +++++++++++++++++++++++++++++++++++++
       Consists of a thin, positively-doped (P-type) semiconductor material sandwiched between two negatively-doped (N-type) materials. 
---------->
       When a positive voltage is applied to the base, a larger current flows from the collector to the emitter. 
        NPN transistors are often referred to as "sinking" because they sink current from the load into the output.
-       NPN transistors are often referred to as "sinking" because they sink current from the load into the output.  
        Widely used in amplifiers, switches, and logic gates. 
 
 
@@ -287,3 +281,53 @@ and drain terminals. The gate and body create a small capacitor that can store a
 
 CMOS Inverter 
 ------------------------
+CMOS Inverter
+A CMOS (Complementary Metal-Oxide-Semiconductor) Inverter is a fundamental digital logic gate built using CMOS technology. It inverts a binary input signal (i.e., if the input is 0, the output will be 1, and if the input is 1, the output will be 0). CMOS inverters are widely used due to their low power consumption and high noise immunity.
+Field-Effect Transistor (FET)
+A Field-Effect Transistor (FET) is a type of transistor that uses an electric field to control the flow of current in a semiconductor channel. FETs are widely used in electronic devices and circuits due to their efficiency, high input impedance, and low power consumption. The most common types of FETs are MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors), which are the foundation of most modern electronic devices.
+
+vlsi design flow diagram 
+--------------------------------
++---------------------------+
+|    System Specification    |  
++---------------------------+
+               |
+               V
++---------------------------+
+|    Architectural Design    |
++---------------------------+
+               |
+               V
++---------------------------+
+|  Functional & Logic Design |
++---------------------------+
+               |
+               V
++---------------------------+
+|        Circuit Design      |
++---------------------------+
+               |
+               V
++---------------------------+
+|      Physical Design       |
++---------------------------+
+               |
+               V
++---------------------------+
+|  Physical Verification     |
++---------------------------+
+               |
+               V
++---------------------------+
+|        Fabrication         |
++---------------------------+
+               |
+               V
++---------------------------+
+|  Packaging & Testing       |
++---------------------------+
+               |
+               V
++---------------------------+
+|           Chip             |
++---------------------------+
